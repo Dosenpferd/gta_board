@@ -1,0 +1,27 @@
+.page__header {
+  height: 70px;
+  background-color: $color-violet;
+  padding: 5px 40px;
+  display: flex;
+  align-items: center;
+  
+  .logo {
+    height: 40px;
+    margin-right: 40px;
+  }
+  
+  ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+    
+    li {
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}
